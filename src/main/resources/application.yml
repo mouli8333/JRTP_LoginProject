@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: mouli
+    url: jdbc:h2:mem:testdb
+    username: mouli
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
+    
